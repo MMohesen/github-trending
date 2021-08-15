@@ -1,0 +1,36 @@
+.button {
+  background-color: #373e47;
+  box-shadow: #444c56;
+  transition: .2s cubic-bezier(.3, 0, .5, 1);
+  transition-property: color, background-color, border-color;
+  border: 0.1rem solid #444c56;
+
+  appearance: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 5px 16px;
+  position: relative;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  .button-title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #adbac7;
+  }
+
+  &:hover{
+    background-color: #444c56;
+    border-color: #768390;
+    transition-duration: .1s;
+  }
+}

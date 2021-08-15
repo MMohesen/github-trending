@@ -1,0 +1,19 @@
+.nav {
+  border-bottom: 0.1rem solid #444c56;
+  .header {
+    text-align: center;
+    padding: 4rem 0;
+
+    .header-title {
+      font-weight: 600;
+      font-size: 3.2rem;
+      margin: 0;
+    }
+
+    .header-description {
+      color: #768390;
+      font-size: 1.6rem;
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+export enum REPOSITORIES {
+  SET_REPO_LIST = "SET_REPO_LIST",
+}
